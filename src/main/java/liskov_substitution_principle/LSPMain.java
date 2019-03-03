@@ -1,7 +1,13 @@
 package liskov_substitution_principle;
 
 /**
- * Liskov Substitution Principle states, you should be able to substitute derived class for a base class
+ *
+ * Liskov Substitution Principle:
+ * The Liskov Substitution Principle (LSP, lsp) is a concept in Object Oriented Programming that states:
+ * Functions that use pointers or references to base classes must be able to use objects of derived classes
+ * without knowing it.
+ *
+ * Simply, you should be able to substitute derived class for a base class
  * The problem happens in Square setter function. That implementation is good w.r.t Square but violates
  * LSP for Rectangle.
  * Now question arises how to make Square class ?
